@@ -12,19 +12,20 @@ h1{
 #F{
    color: white;
    padding: auto;
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   font-size: 40px;
-   margin: 40px;
+   font-size: 30px;
 }
-.z{
-   font-size: 40px;
-   font-family: Georgia, 'Times New Roman', Times, serif;
+li{
+   font-size: 30px;
 }
-span{
-   height: 60px;
-   width: 60px;
-   align-self: center;
-   margin: 40px;
+div{
+   margin-top: 30px;
 }
-
+img{
+   height: 200px;
+   width:200px;
+   background-size: cover;
+}
+.r{
+   color: rgb(4, 4, 68);
+}
 
