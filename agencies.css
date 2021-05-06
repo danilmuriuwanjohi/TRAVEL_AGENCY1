@@ -4,84 +4,51 @@
 
 body {
     margin: 0;
+    background-image: url(images/Pic1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.navbar {
-    overflow: hidden;
-    background-color: #333;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-.navbar a {
+/* .column {
     float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+    width: 33.33%;
+    padding: 10px;
+    background-color: #ccc;
+    height: 250px;
+} */
 
-.dropdown {
-    float: left;
-    overflow: hidden;
-}
 
-.dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font: inherit;
-    margin: 0;
-}
-
-.navbar a:hover,
-.dropdown:hover .dropbtn {
-    background-color: blue;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    width: 100%;
-    left: 0;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    text-align: center;
-}
-
-.dropdown-content .header {
-    background: blue;
+/* .column a {
+    float: none;
+    color: black;
     padding: 16px;
-    color: white;
-}
-
-.dropdown:hover .dropdown-content {
+    text-decoration: none;
     display: block;
+    text-align: left;
 }
 
-
-/* Create three equal columns that floats next to each other */
+.column a:hover {
+    background-color: #ddd;
+} */
 
 .column1 {
     float: left;
     width: 33.33%;
-    color: rgb(28, 29, 70);
+    color: white;
     padding: 10px;
-    /* background-color: #ccc; */
     height: 100%;
     text-align: left;
-    background-image: url("images/simba.jpg");
+    /* background-image: url("images/lion.jpg"); */
     background-repeat: no-repeat;
     background-position: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .column1 a {
     float: none;
-    color: rgb(28, 29, 70);
+    color: black;
     padding: 16px;
     text-decoration: none;
     display: block;
@@ -99,12 +66,15 @@ body {
     float: left;
     width: 33.33%;
     padding: 10px;
+    color: white;
     /* background-color: #ccc; */
     height: 100%;
     text-align: left;
-    background-image: url("images/log2.png");
+    /* background-image: url("images/log2.png"); */
     background-repeat: no-repeat;
     background-position: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .column2 a {
@@ -128,11 +98,14 @@ body {
     width: 33.33%;
     padding: 10px;
     /* background-color: #ccc; */
+    color: white;
     height: 100%;
     text-align: left;
-    background-image: url("images/log3.png");
+    /* background-image: url("images/log3.png"); */
     background-repeat: no-repeat;
     background-position: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .column3 a {
@@ -142,7 +115,7 @@ body {
     text-decoration: none;
     display: block;
     text-align: centre;
-    ext-align: centre;
+    text-align: centre;
     background-color: grey;
     width: 40%;
     margin-left: 30%;
@@ -157,11 +130,14 @@ body {
     width: 33.33%;
     padding: 10px;
     /* background-color: #ccc; */
+    color: white;
     height: 100%;
     text-align: left;
-    background-image: url("images/log4.jpeg");
+    /* background-image: url("images/log4.jpeg"); */
     background-repeat: no-repeat;
     background-position: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .column4 a {
@@ -186,11 +162,14 @@ body {
     width: 33.33%;
     padding: 10px;
     /* background-color: #ccc; */
+    color: white;
     height: 100%;
     text-align: left;
-    background-image: url("images/log5.jpg");
+    /* background-image: url("images/log5.jpg"); */
     background-repeat: no-repeat;
     background-position: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .column5 a {
@@ -214,11 +193,14 @@ body {
     width: 33.33%;
     padding: 10px;
     /* background-color: #ccc; */
+    color: white;
     height: 100%;
     text-align: left;
-    background-image: url("images/log6.png");
+    /* background-image: url("images/log6.png"); */
     background-repeat: no-repeat;
     background-position: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .column6 a {
@@ -242,11 +224,14 @@ body {
     width: 33.33%;
     padding: 10px;
     /* background-color: #ccc; */
+    color: white;
     height: 100%;
     text-align: left;
-    background-image: url("images/Logo7.png");
+    /* background-image: url("images/Logo7.png"); */
     background-repeat: no-repeat;
     background-position: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .column7 a {
@@ -270,11 +255,14 @@ body {
     width: 33.33%;
     padding: 10px;
     /* background-color: #ccc; */
+    color: white;
     height: 100%;
     text-align: left;
-    background-image: url("images/log8.png");
+    /* background-image: url("images/log8.png"); */
     background-repeat: no-repeat;
     background-position: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .column8 a {
@@ -298,11 +286,14 @@ body {
     width: 33.33%;
     padding: 10px;
     /* background-color: #ccc; */
+    color: white;
     height: 100%;
     text-align: left;
-    background-image: url("images/Logo9.jpeg");
+    /* background-image: url("images/tembea.png"); */
     background-repeat: no-repeat;
     background-position: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .column9 a {
@@ -321,8 +312,11 @@ body {
     background-color: rgb(221, 44, 168);
 }
 
-
-/* Clear floats after the columns */
+.agency {
+    text-align: center;
+    background-color: rgb(224, 212, 42);
+    padding: 10px;
+}
 
 .row:after {
     content: "";
@@ -330,12 +324,79 @@ body {
     clear: both;
 }
 
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
         height: auto;
     }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: rgb(212, 114, 2);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(235, 84, 38);
+}
+
+.container {
+    border-radius: 18px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.form {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.frm {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .form,
+    .frm,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.reg {
+    text-align: center;
 }
