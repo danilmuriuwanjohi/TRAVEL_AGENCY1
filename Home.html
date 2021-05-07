@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="Home.css">
+    <script src="Home.js"></script>
+    <title>Convex</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img src="images/logo.png">
+      </div>
+      <form class="searchbar">
+        <input type="text" placeholder="Agencie..."/>
+        <button class="icon">
+        <i class="fas fa-search"></i>
+        </button>
+      </form>
+    </div>
+    <div class="sideNav">
+      <nav class="topbar">
+        <ul>
+          <li class="l1"><a href="Login.html" target="_self">Login</a></li>
+          <li class="l2"><a href="#">Signup</a></li>
+        </ul>
+      </nav>
+      <nav class="navbar">
+        <span class="openslide">
+          <a href="#" onclick="openslidemenu()">
+            <svg width="30" height="30">
+              <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+              <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+              <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+            </svg>
+          </a>
+        </span>
+        <div id="sidemenu" class="sidemenu">
+          <a href="#" class="closemenu" onclick="closeslidemenu()">&times;</a>
+          <a class="active" href="#">HOME</a>
+          <a href="agencies.html">AGENCIES</a>
+          <a href="about.html">ABOUT US</a>
+          <a href="contact.html">CONTACT US</a>
+      </nav>
+    </div>
+    <div class="text">
+      <h2>Popular <span style="font-weight: lighter;"> Destination</span></h2>
+      <p>
+        This our travel guides giving you travel insights, ideas, and tips of where to visit
+      </p>
+    </div>
+    <div class="table">
+      <div class="box">
+        <div class="imgBox">
+          <img src="images/kenya-hells-gate-national-park.jpg">
+        </div>
+        <div class="info">
+          <div class="content">
+            <h2>Hell's Gate National Park</h2>
+            <p>
+              A hot spot for climbers, Hell's Gate National Park is one of the few parks in Kenya that allows camping and enables you to explore on foot or bicycle.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="imgBox">
+          <img src="images/kenya-lake-naivasha.jpg">
+        </div>
+        <div class="info">
+          <div class="content">
+            <h2>Lake Naivasha</h2>
+            <p>
+              A haven for birders, Lake Naivasha lies at the highest point of the Great Rift Valley. More than 400 species of birds have been spotted here, including African fish eagles, jacanas, white-fronted bee-eaters, and several species of kingfishers.
+            </p>
+          </div>
+        </div>
+
+      </div>
+      <div class="box">
+        <div class="imgBox">
+          <img src="images/kenya-amboseli.jpg">
+        </div>
+        <div class="info">
+          <div class="content">
+            <h2>Amboseli National Reserve</h2>
+            <p>
+              Crowned by Mount Kilimanjaro, Africa's highest peak, Amboseli National Reserve is one of Kenya's most popular tourist parks. The name "Amboseli" comes from a Maasai word meaning "salty dust," an apt description for the park's parched conditions.
+            </p>
+          </div>
+        </div>
+
+      </div>
+      <div class="box">
+        <div class="imgBox">
+          <img src="images/kenya-lake-nakuru-national-park.jpg">
+        </div>
+        <div class="info">
+          <div class="content">
+            <h2>Lake Nakuru National Park</h2>
+            <p>
+              Lake Nakuru National Park, in Central Kenya, is famous for its huge flocks of pink flamingos. The birds throng on Lake Nakuru itself, one of the Rift Valley soda lakes that covers almost a third of the park's area.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="imgBox">
+          <img src="images/kenya-lamu.jpg">
+        </div>
+        <div class="info">
+          <div class="content">
+            <h2> Lamu Island</h2>
+            <p>
+              The small island of Lamu, northeast of Mombasa, oozes old-world charm. A UNESCO World Heritage Site, Lamu Old Town is Kenya's oldest continually inhabited settlement, with origins dating back to the 12th century.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="imgBox">
+          <img src="images/kenya-Maasai-mara.jpg">
+        </div>
+        <div class="info">
+          <div class="content">
+            <h2>Maasai Mara National Reserve</h2>
+            <p>
+              Maasai Mara National Reserve (also "Masai Mara") is one of Africa's most magnificent game reserves. Bordering Tanzania, the Mara is the northern extension of the Serengeti and forms a wildlife corridor between the two countries.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="imgBox">
+          <img src="images/kenya-malindi.jpg">
+        </div>
+        <div class="info">
+          <div class="content">
+            <h2>Malindi</h2>
+            <p>
+              North of Mombasa on the Kenyan coast, Malindi has a split personality. This popular beach town is part historic old town, part modern tourist hub. Thanks to its rich trading history, it is also a melting pot of cultures and cuisines.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="imgBox">
+          <img src="images/kenya-mombasa.jpg">
+        </div>
+        <div class="info">
+          <div class="content">
+            <h2>Mombasa</h2>
+            <p>
+              Mombasa is a multicultural tourist magnet. It's also Kenya's second largest city and biggest port. British, Portuguese, Arab, Indian, and Asian immigrants add to the rich cultural mix, and their influence is evident in the architecture, as well as the many different types of cuisine.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="end">
+      <div class="end-link">
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <p>© Copyright 2021 Convex. All rights reserved.<br>
+        Unauthorized duplication in part or whole without prior written consent prohibited by international laws.</p>
+    </footer>
+  </body>
+</html>
